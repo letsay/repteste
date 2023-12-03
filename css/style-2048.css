@@ -14,7 +14,7 @@ body{
     font-weight: bold;
     color: tan;}
 
-    .tile[data-val="2"],
+.tile[data-val="2"],
 .tile[data-val="4"] {
     color: #A7ECEE;
 }
