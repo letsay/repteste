@@ -4,12 +4,12 @@ body{
     font-family: "Rubik", sans-serif;
     font-weight: bold;
     color: white;
-};
+}
 
 #title{
     height: 150px;
     width: 400px;
-};
+}
 
 #board{
     width: 360px;
@@ -20,11 +20,10 @@ body{
     margin: 3px;
     display: flex;
     flex-wrap: wrap;
-};
+}
 
 #board img{
-    width: 118px;
-    height: 118px;
+    width: 120px;
+    height: 120px;
     border: 1px solid #C1D98F;
-
 }

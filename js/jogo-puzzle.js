@@ -6,9 +6,9 @@ var otherTile; //em branco
 
 var turns = 0;
 
-//var imgOrder = ["1","2","3","4","5","6","7","8","9"]; ordem normal
+var imgOrderCerta = ["1","2","3","4","5","6","7","8","9"]; //ordem normal
 
-var imgOrder = ["4","2","8","5","1","6","7","9","3"];
+var imgOrder = ["6","3","1","4","5","2","8","7","9"];
 
 window.onload = function(){
     for (let r=0; r < rows; r++){
