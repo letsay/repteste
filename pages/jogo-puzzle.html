@@ -7,24 +7,31 @@
     <!-- Importando CSS -->
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="css/jogo-pong.css">
+    <link rel="stylesheet" href="../css/puzzle.css">
 
+    <!-- Importando script -->
+    <script src="../js/jogo-puzzle.js"></script>
 
-    <title>Friv2 - Pong</title>
+    <title> Friv2 - Slide Puzzle </title>
 </head>
+
 <body>
     <ul>
         <li><a href="index.html"><img class="logo" src="../images/logo-friv2.png" alt="Logo Friv2"></a></li>
     </ul>
+<div>
+    
+    <div id="title">
+        <h1>Slide Puzzle</h1>
+    </div>
 
-    <div class="game-container">
-        <div class="paddle" id="leftPaddle"></div>
-        <div class="paddle" id="rightPaddle"></div>
-        <div class="ball" id="ball"></div>
-  </div>
-  
-    <script src="../js/jogo-pong.js"></script>
+    <div id="board"></div>
 
+    <h1>Turns: <span id="turns">0</span></h1>
+        
+        
 </div>
+
+
 </body>
 </html>
